@@ -1,0 +1,35 @@
+{
+	"firstName" : "Jonas",
+	"lastName" : "Kahnwald",
+	"emailid" : "jonas.k@gmail.com",
+	"registrationNumber" : "2016ECE1384",
+	"classNumber" : "XII",
+	"section" : "B",
+	"department" : "Science",
+	"grade" : "A+",
+	"phoneNumber" : 8761684464164646415
+}
+==================================================================
+http://localhost:8080/StudentManagementSystem/api/v1/student (save)
+
+http://localhost:8080/StudentManagementSystem/api/v1/students (getall)
+
+http://localhost:8080/StudentManagementSystem/api/v1/student/{id} (getbyid)
+
+http://localhost:8080/StudentManagementSystem/api/v1/student/{id} (deletebyid)
+
+http://localhost:8080/StudentManagementSystem/api/v1/student (update)
+
+
+==================================================================================
+Student
+----------------------------
+id
+firstname
+lastname
+resgistration number
+class
+section
+Department
+grade
+phone number
