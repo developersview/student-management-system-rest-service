@@ -52,8 +52,44 @@ data.exception.message2=User does not exists!
 
 URL : http://localhost:8080/StudentManagementSystem/api/v1/student
 
-```properties
-http://localhost:8080/StudentManagementSystem/api/v1/student
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/savestudent.png)
+
+## Retriving all student details
+
+URL : http://localhost:8080/StudentManagementSystem/api/v1/students
+
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/getallstudents.png)
+
+## Retriving a student details by id
+
+URL : http://localhost:8080/StudentManagementSystem/api/v1/student/{id}
+
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/getstudentbyid.png)
+
+## Deleting a student details by id
+
+URL : http://localhost:8080/StudentManagementSystem/api/v1/student/{id}
+
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/deletestudent.png)
+
+## Updating a student details
+
+URL : http://localhost:8080/StudentManagementSystem/api/v1/student
+
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/updatestudent.png)
+
+## User already exists Exception
+
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/useralreadyexist.png)
+
+## User does not Exists Exception
+
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/userdoesnotexits.png)
+
+## Query result from Azure Data Studio
+
+```sql
+SELECT * FROM dbo.students
 ```
 
-![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/savestudent.png)
+![image](https://github.com/developersview/student-management-system-rest-service/blob/master/screenshots/azuredatastudio.png)
