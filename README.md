@@ -16,7 +16,7 @@ This is a Student Management Service REST API, implemented CRUD operations.
 - Postman
 
 ## Read the Step By Step Guide here 
-![Building Rest API with SpringBoot 2](https://medium.com/@pranoy8086/building-rest-api-with-springboot-2-9bd89fb308b0)
+[Building Rest API with SpringBoot 2](https://medium.com/@pranoy8086/building-rest-api-with-springboot-2-9bd89fb308b0)
 
 ## Project Structure
 
